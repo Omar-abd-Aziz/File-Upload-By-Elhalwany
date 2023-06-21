@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <div class="drop_box">
+
+            <h1 style="font-family: sans-serif; text-align: center;">File Upload By 
+                <a href="https://wa.me/201111881968" target="_blank">Elhalwany</a>
+            </h1>
+            <br>
+            <input type="file" hidden accept="*" id="mainInput" style="display:none;" multiple>
+            <label for="mainInput" class="btn" style="cursor: pointer; border-radius: 15px;">
+                Choose File
+            </label>
+            <br>
+            <button class="btn uploadBtn" style="font-weight: bold; cursor: pointer; border-radius: 15px;">Upload</button>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="dadOfFilesLinks">
+
+    </div>
+    
+</body>
+<script src="./js cdn/swalCdn.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+<script type="module" src="./main.js"></script>
+</html>
