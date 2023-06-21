@@ -114,7 +114,7 @@ document.querySelector(".uploadBtn").addEventListener("click",async ()=>{
             ArrayOfFilesLinks.forEach(e=>{
                 document.querySelector(".dadOfFilesLinks").innerHTML+=`
                 <div>
-                    <a class="link" href="${e.src}" target="_blank" style="display: inline-block; max-width: 100px; overflow: hidden; text-overflow: ellipsis;">${e.name}</a>
+                    <a class="link" href="${e.src}" target="_blank" style="display: inline-block; max-width: 80%; overflow: hidden; text-overflow: ellipsis;">${e.name}</a>
                 </div>
                 <br>
                 `;
